@@ -2,11 +2,51 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CV Zied Guedri</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .button {
+      display: block;
+      width: fit-content;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    embed {
+      width: 100%;
+      height: 700px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur mon CV</h1>
-  <p><a href="CV-%20Zied%20GUEDRI%20-%20EN-V.pdf" target="_blank">Télécharger le CV</a></p>
-  <embed src="CV-%20Zied%20GUEDRI%20-%20EN-V.pdf" type="application/pdf" width="100%" height="600px" />
+  <div class="container">
+    <h1>Curriculum Vitae - Zied Guedri</h1>
+    <a class="button" href="CV-%20Zied%20GUEDRI%20-%20EN-V.pdf" target="_blank">📄 Télécharger le CV en PDF</a>
+    <embed src="CV-%20Zied%20GUEDRI%20-%20EN-V.pdf" type="application/pdf" />
+  </div>
 </body>
 </html>
